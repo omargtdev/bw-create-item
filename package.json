@@ -1,0 +1,24 @@
+{
+  "name": "bw-create-item",
+  "version": "0.1.0",
+  "description": "Create items for bitwarden",
+  "main": "src",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "bw",
+    "cli"
+  ],
+  "author": "omargtdev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  }
+}
